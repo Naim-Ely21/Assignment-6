@@ -1,0 +1,23 @@
+.tooltip {
+  position: absolute;
+  display: none;
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+  pointer-events: none;
+  z-index: 10;
+}
+
+
+svg text {
+  font-size: 12px;
+}
+
+.legend rect {
+  stroke-width: 1px;
+}
+
+.legend text {
+  font-size: 12px;
+}
